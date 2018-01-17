@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.hoffman-international.hoffman-app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Sayit</name>
+    <name>Terappiados</name>
     <description>
-        Geopositioned message boards
+        Terapiados App
     </description>
     <author email="davidm@luthiersdewebs.com" href="http://luthiersdewebs.com">
         Luthiers de Webs
     </author>
-    <preference name="phonegap-version" value="cli-5.1.1" />
+    <preference name="phonegap-version" value="cli-7.0.1" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <gap:plugin name="org.apache.cordova.camera" version="0.2.4" />
-    <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.device-motion" version="0.2.10" />
-    <gap:plugin name="org.apache.cordova.globalization" version="0.2.6" />
-    <gap:plugin name="de.phonostar.softkeyboard-custom" version="0.1.1" />
-    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
-    <gap:plugin name="org.apache.cordova.vibration" version="0.3.7" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
-    <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" version="0.1.1" />
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.6" />
-    <gap:plugin name="org.apache.cordova.file" version="1.3.1" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
-    <gap:plugin name="hu.dpal.phonegap.plugins.spinnerdialog" version="1.2.0" />
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.5" />
-    <gap:plugin name="net.yoik.cordova.plugins.screenorientation" version="1.3.1" />
-    <gap:plugin name="com.jchalan.cordova.ios.disableshaketoundo" version="0.1.0" />
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
-    <gap:plugin name="nl.x-services.plugins.insomnia" version="4.0.1" />
-    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
-    <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="de.phonostar.softkeyboard-custom" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="hu.dpal.phonegap.plugins.spinnerdialog" />
+    <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
+    <gap:plugin name="net.yoik.cordova.plugins.screenorientation" />
+    <gap:plugin name="com.jchalan.cordova.ios.disableshaketoundo" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="nl.x-services.plugins.insomnia" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="nl.x-services.plugins.backgroundaudio" />
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
     </gap:config-file>
