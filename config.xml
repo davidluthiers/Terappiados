@@ -18,8 +18,8 @@
 	<gap:plugin name="cordova-plugin-globalization" source="npm" />
 	<gap:plugin name="cordova-plugin-device" source="npm" />
 	<gap:plugin name="cordova-plugin-vibration" source="npm" />
-	<gap:plugin name="cordova-plugin-file" version="5.0.0" source="npm" />
 	<gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+	<gap:plugin name="cordova-plugin-file" version="5.0.0" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
 	<gap:plugin name="cordova-plugin-network-information" source="npm"/>
