@@ -7,7 +7,7 @@
     <author email="davidm@luthiersdewebs.com" href="http://luthiersdewebs.com">
         Luthiers de Webs
     </author>
-    <preference name="phonegap-version" value="cli-7.0.1" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
@@ -18,7 +18,7 @@
 	<gap:plugin name="cordova-plugin-globalization" source="npm" />
 	<gap:plugin name="cordova-plugin-device" source="npm" />
 	<gap:plugin name="cordova-plugin-vibration" source="npm" />
-	<gap:plugin name="cordova-plugin-file" version="4.3.2" source="npm" />
+	<gap:plugin name="cordova-plugin-file" source="npm" />
 	<gap:plugin name="cordova-plugin-file-transfer" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
