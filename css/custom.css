@@ -1,0 +1,39 @@
+.external{
+	z-index: 1;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+#externalheader{
+	top: -1px;
+	padding-top: 1px;
+}
+
+#externalfooter{
+	bottom: -1px;
+	padding-bottom: 1px;
+}
+
+.ui-page{
+
+	padding-top: 45px;
+	padding-bottom: 45px;
+
+}
+
+.helvetica{
+	font-family: "HelveticaNeue-Light";
+}
+
+@font-face {			/* Fuente principal */
+
+    font-family: "HelveticaNeue-Light";
+    src: url('../fonts/helvetica_neue_light.ttf') format('truetype');
+
+	
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}

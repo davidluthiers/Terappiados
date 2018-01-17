@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ITCNewBaskervilleStdRoman';
+    src: url('newbaskervillestd-roman.eot');
+    src: url('newbaskervillestd-roman.eot') format('embedded-opentype'),
+         url('newbaskervillestd-roman.woff') format('woff'),
+         url('newbaskervillestd-roman.ttf') format('truetype'),
+         url('newbaskervillestd-roman.svg#ITCNewBaskervilleStdRoman') format('svg');
+}
