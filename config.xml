@@ -12,30 +12,25 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="de.phonostar.softkeyboard-custom" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="hu.dpal.phonegap.plugins.spinnerdialog" />
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
-    <gap:plugin name="net.yoik.cordova.plugins.screenorientation" />
-    <gap:plugin name="com.jchalan.cordova.ios.disableshaketoundo" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="nl.x-services.plugins.insomnia" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="nl.x-services.plugins.backgroundaudio" />
-    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+	<gap:plugin name="cordova-plugin-media" source="npm" />
+	<gap:plugin name="cordova-plugin-dialogs" source="npm" />
+	<gap:plugin name="cordova-plugin-globalization" source="npm" />
+	<gap:plugin name="cordova-plugin-device" source="npm" />
+	<gap:plugin name="cordova-plugin-vibration" source="npm" />
+	<gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+	<gap:plugin name="cordova-plugin-file" source="npm" />
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+	<gap:plugin name="cordova-plugin-network-information" source="npm"/>
+	<gap:plugin name="cordova-plugin-spinner-dialog" source="npm"/>
+	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm"/>
+	<gap:plugin spec="https://github.com/apache/cordova-plugin-screen-orientation.git" source="git" />
+	<gap:plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
+	<gap:plugin name="cordova-plugin-insomnia" source="npm"/>
         <true/>
     </gap:config-file>
+	
     <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
         <false/>
     </gap:config-file>
