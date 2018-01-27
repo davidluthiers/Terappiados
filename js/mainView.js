@@ -4,10 +4,9 @@ define([
     'backbone',
     'text!../Templates/main.html',
     'mainModel',
-    'text!../Templates/headerandpanel.html',
     'jquerymobile'
   
-    ], function($, _, Backbone, main, mainModel, headerandpanel){
+    ], function($, _, Backbone, main, mainModel){
 
         mainView = Backbone.View.extend({
   
