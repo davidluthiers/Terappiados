@@ -9,9 +9,9 @@
 
 #externalheader{
 	top: -1px;
-	padding-top: 1px;
 	background-color: #ffffff;
 	border: none;
+	margin-top: 5%;
 }
 
 #externalheader img{
@@ -24,10 +24,7 @@
 }
 
 .ui-page{
-
-	padding-top: 45px;
-	padding-bottom: 45px;
-
+	padding-top: 15%;
 }
 
 .helvetica{
