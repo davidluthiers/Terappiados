@@ -35,7 +35,6 @@ define([
 				$(function () {
 					console.log("initializing external components");
 					$(".external").toolbar();
-					//$("#externalfooter").toolbar();
 				});
 				
 				historial.fetch();
