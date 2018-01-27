@@ -294,7 +294,50 @@ define([
             },
 			
 			backKeyDown: function(){ //función que se llama cuando se pulsa el botón Back
-			
+				console.log("backkey event");
+                var self=this;
+                try{
+					if(device.platform=='Android'){
+						navigator.notification.confirm(
+							//historial.get("languages").get("dic_exitApp"),
+							"Salir de la aplicación",
+							function(indexans){
+								if(indexans==1){
+									if (navigator.app) {
+										navigator.app.exitApp();
+									}
+									else if (navigator.device) {
+										navigator.device.exitApp();
+									}
+								}
+							},
+							//historial.get("languages").get("dic_Hoffman"),
+							"Terappiados",
+							[
+							//historial.get("languages").get("dic_transf_p9_text2"),historial.get("languages").get("dic_transf_p9_text3")
+							"Sí", "No"
+							]);
+					}
+					else{
+						navigator.notification.confirm(
+							historial.get("languages").get("dic_exitApp"),
+							function(indexans){
+								if(indexans==2){
+									if (navigator.app) {
+										navigator.app.exitApp();
+									}
+									else if (navigator.device) {
+										navigator.device.exitApp();
+									}
+								}
+							},
+							historial.get("languages").get("dic_Hoffman"),[historial.get("languages").get("dic_transf_p9_text3"),historial.get("languages").get("dic_transf_p9_text2")]);
+					}
+                }
+                catch(e){
+                    self.onbackSuccess(1);
+                    console.log(e);
+                }
 			},
 	
             changePage:function (view) {
