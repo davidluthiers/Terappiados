@@ -88,6 +88,7 @@ define([
                 });
 				
 				this.mainview.render();
+				this.changePage (this.mainview);
 								
                 //this.changePage (this.mainview);
                 
