@@ -10,6 +10,12 @@
 #externalheader{
 	top: -1px;
 	padding-top: 1px;
+	background-color: #ffffff;
+	border: none;
+}
+
+#externalheader img{
+	width: 100%;
 }
 
 #externalfooter{
