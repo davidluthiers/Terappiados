@@ -45,14 +45,7 @@ require([ "jquery", "underscore", "backbone", "Router"], function( $, _, Backbon
 	);
 	
     document.addEventListener("deviceready",onDeviceReady,false);
-    try{
-        window.plugins.spinnerDialog.show(null, null, function () {
-            console.log("callback");
-        });
-    }
-    catch(e){
-    //console.log(e);
-    }
+
     function onDeviceReady() {
 		
     }
