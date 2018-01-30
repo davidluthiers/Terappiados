@@ -24,6 +24,16 @@
 	border-radius: 50%;
 }
 
+.audios, .team, .team{
+	background-color: #447dcc;
+    border-color: #447dcc;
+}
+
+.centers, .web{
+	background-color: #ff8b00;
+    border-color: #ff8b00;
+}
+
 #externalfooter{
 	bottom: -1px;
 	padding-bottom: 1px;
