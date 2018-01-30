@@ -21,17 +21,23 @@
 }
 
 .audios, .team, .centers, .web, .share{
-	border-radius: 50%;
+	border-radius: 50% !important;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #000000 /*{a-bup-shadow-color}*/ !important;
 }
 
 .audios, .team, .team{
-	background-color: #447dcc;
-    border-color: #447dcc;
+	background-color: #447dcc !important;
+    border-color: #447dcc !important;
 }
 
 .centers, .web{
-	background-color: #ff8b00;
-    border-color: #ff8b00;
+	background-color: #ff8b00 !important;
+    border-color: #ff8b00 !important;
+}
+
+.audios, .web, .share{
+	width: 200% !important;
+    right: 50% !important;
 }
 
 #externalfooter{
