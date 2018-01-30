@@ -35,6 +35,11 @@
     border-color: #c7501d !important;
 }
 
+.team, .centers{
+	width: 78% !important;
+    margin-left: 10% !important;
+}
+
 .audios{
 	margin-top: 30%;
 }
