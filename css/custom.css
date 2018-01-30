@@ -25,12 +25,12 @@
 	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #000000 /*{a-bup-shadow-color}*/ !important;
 }
 
-.audios, .team, .share{
+.audios, .team{
 	background-color: #447dcc !important;
     border-color: #447dcc !important;
 }
 
-.centers, .web{
+.centers, .web, .share{
 	background-color: #c7501d !important;
     border-color: #c7501d !important;
 }
