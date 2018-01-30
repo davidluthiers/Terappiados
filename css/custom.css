@@ -3,19 +3,25 @@
 	left: 0px;
 	right: 0px;
 	width: 100%;
-	position: fixed;
 	z-index: 1000;
 }
 
 #externalheader{
-	top: -1px;
 	background-color: #ffffff;
 	border: none;
-	margin-top: 5%;
+    margin-top: -4%;
+}
+
+.ui-page-theme-a{
+	background-color: #ffffff;
 }
 
 #externalheader img{
 	width: 100%;
+}
+
+.pprincipal button{
+	border-radius: 50%;
 }
 
 #externalfooter{
